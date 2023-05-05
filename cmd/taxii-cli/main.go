@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/shellcromancer/cti-go/pkg/stix"
-	"github.com/shellcromancer/cti-go/pkg/taxii"
+	"github.com/tconqueror/cti-go/pkg/stix"
+	"github.com/tconqueror/cti-go/pkg/taxii"
 
 	"github.com/spf13/cobra"
 )

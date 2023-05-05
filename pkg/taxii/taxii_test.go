@@ -3,7 +3,7 @@ package taxii_test
 import (
 	"testing"
 
-	"github.com/shellcromancer/cti-go/pkg/taxii"
+	"github.com/tconqueror/cti-go/pkg/taxii"
 )
 
 func TestTAXII_All(t *testing.T) {

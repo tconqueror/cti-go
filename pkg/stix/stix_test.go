@@ -6,7 +6,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/shellcromancer/cti-go/pkg/stix"
+	"github.com/tconqueror/cti-go/pkg/stix"
 )
 
 func TestAttackPattern(t *testing.T) {

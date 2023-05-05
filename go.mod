@@ -1,4 +1,4 @@
-module github.com/shellcromancer/cti-go
+module github.com/tconqueror/cti-go
 
 go 1.17
 

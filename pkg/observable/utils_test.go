@@ -3,7 +3,7 @@ package observable_test
 import (
 	"testing"
 
-	"github.com/shellcromancer/cti-go/pkg/observable"
+	"github.com/tconqueror/cti-go/pkg/observable"
 )
 
 func TestRefangObersable(t *testing.T) {

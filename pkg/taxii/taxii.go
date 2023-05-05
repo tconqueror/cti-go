@@ -18,7 +18,7 @@ import (
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 
-	"github.com/shellcromancer/cti-go/pkg/stix"
+	"github.com/tconqueror/cti-go/pkg/stix"
 )
 
 // Version of the TAXII protocol to follow. Defaults to 2.0 with support for more.
