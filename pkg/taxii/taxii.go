@@ -212,13 +212,13 @@ type taxiiMessageV1 struct {
 
 func (c *Client) Discovery() (d DiscoveryResp, err error) {
 	var path string
-	switch c.version {
-	case Version1_1, Version2_0:
-		path = fmt.Sprintf("%s/taxii/", c.Server)
-	case Version2_1:
-		path = fmt.Sprintf("%s/taxii2/", c.Server)
-	}
-
+	// switch c.version {
+	// case Version1_1, Version2_0:
+	// 	path = fmt.Sprintf("%s/discovery/", c.Server)
+	// case Version2_1:
+	// 	path = fmt.Sprintf("%s/discovery/", c.Server)
+	// }
+	path = fmt.Sprintf("%s/discovery/", c.Server)
 	req, err := http.NewRequestWithContext(context.Background(), http.MethodGet, path, http.NoBody)
 	if err != nil {
 		return DiscoveryResp{}, err
